@@ -1,0 +1,86 @@
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/pokemon-background.jfif);
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+  animation: fadein 5s;
+}
+li::before {
+  content: "• ";
+  color: rgb(103, 109, 236);
+}
+
+.col-40 h1 {
+  font-size: 24px;
+  color: #FFF;
+  background-color: rgb(22, 2, 2);
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.col-40 h2 {
+  font-size: 16px;
+  color: rgb(0, 34, 255);
+}
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  padding: 30px;
+  color: #000;
+  background-color:rgb(240, 71, 4);
+  text-indent: 5px;
+}
+
+.col-60 {
+  background-color:#000;
+  height: 600px;
+  width: 600px;  
+}
+
+#flecha{
+  font-size: 60px;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+#juego div {
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.piezas img{
+  width: 33.33%;
+  float: left;
+}
+
+#objetivo img{
+  width: 50%;
+}
+
+li{
+  color: #000
+}
+
+#pieza9 {
+  visibility: hidden;
+}
